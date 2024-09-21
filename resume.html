@@ -1,0 +1,86 @@
+<html style="margin: 0; padding: 0;">
+<head><title>Kc's Resume</title></head>
+<style type="text/css">
+body{
+background-image: url(carti.jpg);
+background-repeat: no-repeat; 
+background-size: cover;
+}
+</style>
+<style>
+      
+	  header p {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(255, 255, 255); 	
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    animation: fadeInFromTop 1s ease-in-out;
+}
+	  .navigation-bar{
+	  display: flex;
+	  align-items: center;
+	  background-color: #e88ee5;
+      height: 10vh;
+	  padding: 0 10px;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1000;
+	  }
+	  
+	  .navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Ubuntu", BankGothic Lt BT;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: relative; 
+    transition: color 0.3s;
+    animation: fadeInFromTop 1s ease-in-out;
+}
+
+.navigation a::after {
+    content: ''; 
+    position: absolute;
+    left: 50%;
+    bottom: 0; 
+    width: 0;
+    height: 2px; 
+    background-color: rgb(79, 109, 122); 
+    transition: width 0.5s ease-in-out; 
+	transform: TranslateX(-50%)
+}
+
+.navigation a:hover::after {
+    width: 100%; 
+}
+
+.navigation a:hover {
+    color: rgb(79, 109, 122);
+}
+	 
+</style>
+</head>
+<body bgcolor="#ffffff" style="margin: 0; padding: 0;">
+<div class="navigation-bar">
+<div class="navigation">
+<a href="F:/homepage.html"><i>Home</i></a>
+<a href="F:/resume.html"><i>Resume</i></a>
+<a href="F:/contacts.html"><i>Contact</i></a>
+<a href="F:/about.html"><i>About</i></a>
+<a href="F:/gallery.html"><i>Gallery</i></a>
+  </div>
+  </div>
+</body>
+<br/><br/>
+&nbsp&nbsp&nbsp<img src="res.PNG" width="650">
+
+</html>
